@@ -58,17 +58,17 @@
 //     alert('calling function.')
 // })
 
-let arr = [1, 2, 3, 5];
-console.log(arr);
-console.log(arr[0]);
-console.log(arr[1]);
-console.log(arr[2]);
-console.log(arr[3]);
+// let arr = [1, 2, 3, 5];
+// console.log(arr);
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[2]);
+// console.log(arr[3]);
 
-const [n1, n2, n3, n4] = arr; //array destructuring
-const [a, ...b] = arr; //spread operator
-console.log({ n1, n2, n3, n4 });
-console.log({ a, b });
+// const [n1, n2, n3, n4] = arr; //array destructuring
+// const [a, ...b] = arr; //spread operator
+// console.log({ n1, n2, n3, n4 });
+// console.log({ a, b });
 
 // callback function
 // const arg = (x) => {
@@ -83,12 +83,12 @@ console.log({ a, b });
 // console.log(arrow(2));
 
 //curry function
-function fn(a) {
-  return function (b) {
-    return function (c) {
-      return a * b * c;
-    };
-  };
-}
+// function fn(a) {
+//   return function (b) {
+//     return function (c) {
+//       return a * b * c;
+//     };
+//   };
+// }
 
-console.log(fn(10)(2)(3));
+// console.log(fn(10)(2)(3));
